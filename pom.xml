@@ -15,13 +15,20 @@
 	<version>1.0</version>
 
 	<properties>
+		<cassandra.driver.version>3.6.0</cassandra.driver.version>
 	</properties>
 
 	<dependencies>
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-cassandra</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.datastax.cassandra</groupId>
+			<artifactId>cassandra-driver-core</artifactId>
+			<version>${cassandra.driver.version}</version>
 		</dependency>
 
 		<dependency>
