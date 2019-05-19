@@ -1,1 +1,1 @@
-# Spring Boot cassandra Crud
+# [BASIC] Spring Boot cassandra Crud
